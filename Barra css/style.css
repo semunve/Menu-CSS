@@ -1,0 +1,98 @@
+
+body{
+	background: radial-gradient(
+		circle at 50% 20%,
+		rgba(200, 140, 182, 0.875),
+		rgba(100, 232, 144, 0) 70.71%
+	  ), radial-gradient(
+		circle at 30% 50%,
+		rgba(0, 0, 255, 0.5),
+		rgba(0, 0, 255, 0) 60%
+	  ),
+	  radial-gradient(
+		  circle at 90% 70%,
+		  rgba(90, 243, 210, 5),
+		  rgba(0, 255, 0, 0) 60%
+		) beige;
+	
+}
+
+#barra
+{
+	margin-top:15px
+    
+}
+
+#barra ul
+{
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+#barra ul a
+{
+	display:block;
+	color:#333;
+	text-decoration:none;
+	font-weight:700;
+	font-size:12px;
+	line-height:32px;
+	padding:0 15px;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#barra ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+#barra ul li.menu
+{
+	background:gainsboro;
+}
+
+#barra ul li:hover
+{
+	background:paleturquoise;
+}
+
+#barra ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#fff;
+	padding:0
+}
+
+
+
+#barra ul ul li
+{
+	float:none;
+	width:200px;
+}
+
+#barra ul ul a
+{
+	line-height:120%;
+	padding:10px 15px
+}
+
+#barra ul ul ul
+{
+	top:0;
+	left:100%
+}
+
+#barra ul li:hover > ul
+{
+	display:block
+}
